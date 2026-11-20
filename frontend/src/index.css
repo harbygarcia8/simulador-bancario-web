@@ -1,0 +1,49 @@
+:root {
+  --banco-primary: #0d6efd;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f7fb;
+  min-height: 100vh;
+}
+
+.app-main {
+  min-height: calc(100vh - 56px);
+  padding: 1.5rem 0 3rem;
+}
+
+/* Tarjetas de selección de módulo en la portada */
+.modulo-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+  height: 100%;
+}
+.modulo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Teclado del cajero */
+.atm-key {
+  font-size: 1.5rem;
+  font-weight: 600;
+  aspect-ratio: 1 / 1;
+}
+
+.saldo-grande {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.valor-positivo { color: #198754; }
+.valor-negativo { color: #dc3545; }
+
+@media (prefers-reduced-motion: reduce) {
+  .modulo-card {
+    transition: none;
+  }
+  .modulo-card:hover {
+    transform: none;
+  }
+}
