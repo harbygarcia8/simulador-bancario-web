@@ -2,6 +2,8 @@
 
 > Aplicación web full-stack que simula un sistema bancario con **tres módulos** (Banca Virtual, Administración y Cajero Automático) que comparten **una misma base de datos MySQL**. Cualquier operación hecha en un módulo se refleja de inmediato en los demás.
 
+🔗 **Repositorio:** https://github.com/harbygarcia8/simulador-bancario-web
+
 ---
 
 ## 👥 Integrantes
@@ -271,14 +273,17 @@ Luego en `backend/.env`: `DB_HOST=127.0.0.1`, `DB_USER=banco_app`, `DB_PASSWORD=
 - [x] Código fuente funcional (backend + frontend)
 - [x] Archivo `database.sql` (esquema + datos de prueba)
 - [x] Archivo `README.md`
-- [ ] Repositorio en GitHub + colaboradores + commits de todos
+- [x] Repositorio en GitHub creado y publicado
+- [ ] Agregar colaboradores (compañeros de equipo) al repositorio
+- [ ] Commits de participación de **todos** los integrantes
 - [ ] Diagrama de la base de datos
 - [ ] Datos reales de los integrantes
 
 ## Pendientes / próximos pasos
 - [x] Instalar/levantar MySQL y ejecutar `database.sql`
 - [x] Prueba end-to-end: cliente → cajero (retiro) → banca (movimiento) → admin (consignación)
-- [ ] Inicializar repositorio Git y subirlo a GitHub
+- [x] Inicializar repositorio Git y subirlo a GitHub
+- [ ] Agregar colaboradores en GitHub → Settings ▸ Collaborators
 - [ ] Generar el diagrama entidad-relación de la BD
 - [ ] Completar datos de integrantes en el README
 
